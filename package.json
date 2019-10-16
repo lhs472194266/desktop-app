@@ -1,5 +1,15 @@
 {
-  "name"    : "Leanote",
-  "version" : "0.7",
-  "main"    : "main.js"
+  "name": "Leanote",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "electron": "^1.1.1",
+    "nedb": "^1.8.0",
+    "needle": "^2.2.4",
+    "node-getmac": "^1.0.3"
+  }
 }
